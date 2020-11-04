@@ -1,3 +1,6 @@
+body{
+    background-color: #fff;
+}
 .header-container{
     margin: 45px 20px 20px;
     font-family: sans-serif; 
@@ -60,4 +63,26 @@ button{
 
 button:hover{
     background-color: #025157;
+}
+
+.contenedor-padre{
+    display: flex;
+    width: 40%;
+    margin: 100px auto;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+video{
+    width: 500px;
+}
+
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
